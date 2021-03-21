@@ -1,0 +1,152 @@
+* {
+    word-wrap: break-word;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+}
+
+.text-container {
+    background: black;
+    float: left;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    display: run-in;
+    padding: 0;
+    float: left;
+}
+
+h3 {
+    color: white;
+}
+
+body {
+    background-color: rgb(42, 34, 36);
+    height: auto;
+    overflow: auto !important;
+    overflow-x: hidden !important;
+}
+
+.text-container h3 {
+    font-size: 50px;
+    margin: 0 !important;
+    padding: 15px;
+    color: rgba(255, 255, 255, 1);
+    background-image: url(images.jpeg);
+    background-repeat: round;
+    background-size: contain;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: left 0px top 10px;
+    }
+    25% {
+        background-position: left 100px top 10px;
+    }
+    50% {
+        background-position: left 170px top 10px;
+    }
+    75% {
+        background-position: left 100px top 10px;
+    }
+    100% {
+        background-position: left 0px top 10px;
+    }
+}
+
+.container2 {
+    padding-top: 40px;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    overflow: hidden;
+}
+
+.container3 {
+    background: #394F64;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+    justify-content: center !important;
+    align-content: center !important;
+    align-items: center !important;
+}
+
+.row {
+    width: 100%;
+}
+
+.names {
+    padding: 10px;
+}
+
+.namesCard {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 0px;
+    border-radius: 5px;
+    background: #89ccf8;
+    animation-name: femaleAnimate;
+    animation-duration: 4s;
+}
+
+.femaleName {
+    margin: 0px;
+    margin: auto 0px auto 0px;
+    font-size: 2rem;
+}
+
+@keyframes femaleAnimate {
+    0% {
+        left: 100%;
+        top: 0px;
+    }
+    25% {
+        left: 200px;
+        top: 200px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.equCard {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #f5c4c4;
+    animation-name: maleAnimate;
+    animation-duration: 4s;
+}
+
+@keyframes maleAnimate {
+    0% {
+        left: 100%;
+        top: 0px;
+    }
+    25% {
+        left: 100%;
+        top: 200px;
+    }
+    50% {
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}

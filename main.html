@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>MATH CLASSROOM</title>
+</head>
+
+<body>
+    <div class="text-container row" id="text-container">
+        <div class="col" style="float: left">
+            <h3 style="letter-spacing: 5px;">MATH</h3>
+        </div>
+        <div class="col" style="float: right; margin: 0px;">
+            <h3 style="letter-spacing: 3px;float: right; margin: 0px;">Grade 6</h3>
+        </div>
+    </div>
+    <div class="row container2" id="container2">
+        <div class="jumbotron center col-md-7 col-sm-10 col-lg-6">
+            <h1 class="display-4 m-4"> Solving Equations </h1>
+            <p class=" m-3 display-6"> Get a random Equation </p>
+            <span class="coloered" style="font-size:26px;">Solve your equation</span>
+            <p class=" m-4" style="color: green;"> </p>
+
+            <hr class="my-4">
+            <a class="btn btn-primary btn-lg m-2" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Start now</a>
+        </div>
+    </div>
+
+    <div class="row container3 center bg_heart" id="container3">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="row center">
+                            <h5 class="modal-title center" id="exampleModalLabel">start</h5>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body row" id="showCouples">
+                        <div class="col-6 ">
+                            <div class="title">
+                                <h1>Names</h1>
+                            </div>
+                            <div id="Names">
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <div class="title">
+                                <h1>Problems</h1>
+                            </div>
+                            <div id="Equations"></div>
+                        </div>
+                        <div class="row modelFooter center">
+                            <button class="btn btn-primary btn-lg m-2" id="start" type="button" name="button">start</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+</html>
